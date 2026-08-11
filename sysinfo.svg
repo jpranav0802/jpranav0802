@@ -10,24 +10,12 @@
 <circle cx="34" cy="20" r="5" fill="#ffbd2e"/>
 <circle cx="50" cy="20" r="5" fill="#27c93f"/>
 <text x="446" y="24" text-anchor="end" class="header">sysinfo.sh</text>
-<g opacity="0">
-<text x="16" y="70" class="label">role</text>
-<text x="110" y="70" class="value">CS Student &amp; Founder</text>
-<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="350ms" fill="freeze"/>
-</g>
-<g opacity="0">
-<text x="16" y="104" class="label">focus</text>
-<text x="110" y="104" class="value">Shipping AI-native products</text>
-<animate attributeName="opacity" from="0" to="1" begin="260ms" dur="350ms" fill="freeze"/>
-</g>
-<g opacity="0">
-<text x="16" y="138" class="label">stack</text>
-<text x="110" y="138" class="value">FastAPI · Next.js · Supabase · Postgres</text>
-<animate attributeName="opacity" from="0" to="1" begin="520ms" dur="350ms" fill="freeze"/>
-</g>
-<g opacity="0">
-<text x="16" y="172" class="label">now</text>
-<text x="110" y="172" class="value">Heading to Waterloo CS Co-op, Fall 2026</text>
-<animate attributeName="opacity" from="0" to="1" begin="780ms" dur="350ms" fill="freeze"/>
-</g>
+<text x="16" y="70" class="label" opacity="0">role<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="300ms" fill="freeze"/></text>
+<text x="110" y="70" class="value" opacity="0">CS Student &amp; Founder<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="300ms" fill="freeze"/></text>
+<text x="16" y="104" class="label" opacity="0">focus<animate attributeName="opacity" from="0" to="1" begin="260ms" dur="300ms" fill="freeze"/></text>
+<text x="110" y="104" class="value" opacity="0">Shipping AI-native products<animate attributeName="opacity" from="0" to="1" begin="260ms" dur="300ms" fill="freeze"/></text>
+<text x="16" y="138" class="label" opacity="0">stack<animate attributeName="opacity" from="0" to="1" begin="520ms" dur="300ms" fill="freeze"/></text>
+<text x="110" y="138" class="value" opacity="0">FastAPI · Next.js · Supabase · Postgres<animate attributeName="opacity" from="0" to="1" begin="520ms" dur="300ms" fill="freeze"/></text>
+<text x="16" y="172" class="label" opacity="0">now<animate attributeName="opacity" from="0" to="1" begin="780ms" dur="300ms" fill="freeze"/></text>
+<text x="110" y="172" class="value" opacity="0">Heading to Waterloo CS Co-op, Fall 2026<animate attributeName="opacity" from="0" to="1" begin="780ms" dur="300ms" fill="freeze"/></text>
 </svg>

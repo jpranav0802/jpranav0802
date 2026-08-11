@@ -18,7 +18,7 @@ ROWS = [
 WIDTH = 460
 ROW_H = 34
 HEADER_H = 40
-FADE_MS = 350
+FADE_MS = 300
 ROW_STAGGER_MS = 260
 
 
@@ -40,16 +40,16 @@ def render_svg(rows, animate=True):
     ]
     for i, (label, value) in enumerate(rows):
         y = HEADER_H + 30 + i * ROW_H
-        parts.append('<g opacity="0">' if animate else "<g>")
-        parts.append(f'<text x="16" y="{y}" class="label">{escape(label)}</text>')
-        parts.append(f'<text x="110" y="{y}" class="value">{escape(value)}</text>')
+        anim = ""
+        opacity_attr = ' opacity="0"' if animate else ""
         if animate:
             begin = i * ROW_STAGGER_MS
-            parts.append(
+            anim = (
                 f'<animate attributeName="opacity" from="0" to="1" '
                 f'begin="{begin}ms" dur="{FADE_MS}ms" fill="freeze"/>'
             )
-        parts.append("</g>")
+        parts.append(f'<text x="16" y="{y}" class="label"{opacity_attr}>{escape(label)}{anim}</text>')
+        parts.append(f'<text x="110" y="{y}" class="value"{opacity_attr}>{escape(value)}{anim}</text>')
     parts.append("</svg>")
     return "\n".join(parts)
 

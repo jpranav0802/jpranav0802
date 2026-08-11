@@ -5,8 +5,8 @@ from xml.sax.saxutils import escape
 
 from PIL import Image
 
-GLYPHS = " '.,:;~+*xXO#"   # left = light/empty, right = dense/dark
-ACCENT = "#2EFFB8"         # cyan/green terminal accent
+GLYPHS = " '.,:;~+*xXO#"
+ACCENT = "#2EFFB8"
 BG = "#0d1117"
 
 COLS = 80
@@ -14,14 +14,12 @@ CHAR_W = 8.6
 CHAR_H = 15
 FONT_SIZE = 15
 ROW_STAGGER_MS = 40
-ROW_DRAW_MS = 260
+ROW_FADE_MS = 220
 
 
 def image_to_rows(path, cols=COLS):
     img = Image.open(path).convert("L")
     w, h = img.size
-    # Character cells are taller than wide, so undersample rows to
-    # keep the portrait's proportions correct.
     rows = max(1, round(cols * (h / w) * 0.55))
     img = img.resize((cols, rows))
     pixels = list(img.getdata())
@@ -45,17 +43,17 @@ def render_svg(lines):
         "</defs>",
         f'<rect width="100%" height="100%" fill="{BG}" rx="6"/>',
     ]
-    row_width = COLS * CHAR_W
+    # Fade each row in directly on the <text> element (opacity animate on a
+    # leaf shape, not a clipPath or <g> wrapper) - this is the pattern that
+    # actually survives GitHub's <img>-embedded SVG rendering.
     for i, line in enumerate(lines):
         y = (i + 1) * CHAR_H
         begin = i * ROW_STAGGER_MS
-        clip_id = f"row{i}"
         parts.append(
-            f'<clipPath id="{clip_id}"><rect x="0" y="{y - CHAR_H}" width="0" height="{CHAR_H}">'
-            f'<animate attributeName="width" from="0" to="{row_width:.0f}" begin="{begin}ms" '
-            f'dur="{ROW_DRAW_MS}ms" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1"/></rect></clipPath>'
+            f'<text x="4" y="{y}" opacity="0">{escape(line)}'
+            f'<animate attributeName="opacity" from="0" to="1" begin="{begin}ms" '
+            f'dur="{ROW_FADE_MS}ms" fill="freeze"/></text>'
         )
-        parts.append(f'<g clip-path="url(#{clip_id})"><text x="4" y="{y}">{escape(line)}</text></g>')
     parts.append("</svg>")
     return "\n".join(parts)
 
