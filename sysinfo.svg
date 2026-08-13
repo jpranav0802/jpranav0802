@@ -1,7 +1,8 @@
-<svg viewBox="0 0 460 196" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 460 628" xmlns="http://www.w3.org/2000/svg">
 <defs><style>
-.label { font-family: 'Courier New', monospace; font-size: 13px; fill: #7d8590; }
-.value { font-family: 'Courier New', monospace; font-size: 14px; fill: #2EFFB8; }
+.label { font-family: 'Courier New', monospace; font-size: 12px; fill: #7d8590; }
+.value { font-family: 'Courier New', monospace; font-size: 12px; }
+.section { font-family: 'Courier New', monospace; font-size: 12px; fill: #e6edf3; font-weight: bold; }
 .header { font-family: 'Courier New', monospace; font-size: 13px; fill: #7d8590; }
 </style></defs>
 <rect width="100%" height="100%" fill="#0d1117" rx="6"/>
@@ -9,13 +10,44 @@
 <circle cx="18" cy="20" r="5" fill="#ff5f56"/>
 <circle cx="34" cy="20" r="5" fill="#ffbd2e"/>
 <circle cx="50" cy="20" r="5" fill="#27c93f"/>
-<text x="446" y="24" text-anchor="end" class="header">sysinfo.sh</text>
-<text x="16" y="70" class="label" opacity="0">role<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="300ms" fill="freeze"/></text>
-<text x="110" y="70" class="value" opacity="0">CS Student &amp; Founder<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="300ms" fill="freeze"/></text>
-<text x="16" y="104" class="label" opacity="0">focus<animate attributeName="opacity" from="0" to="1" begin="260ms" dur="300ms" fill="freeze"/></text>
-<text x="110" y="104" class="value" opacity="0">Shipping AI-native products<animate attributeName="opacity" from="0" to="1" begin="260ms" dur="300ms" fill="freeze"/></text>
-<text x="16" y="138" class="label" opacity="0">stack<animate attributeName="opacity" from="0" to="1" begin="520ms" dur="300ms" fill="freeze"/></text>
-<text x="110" y="138" class="value" opacity="0">FastAPI · Next.js · Supabase · Postgres<animate attributeName="opacity" from="0" to="1" begin="520ms" dur="300ms" fill="freeze"/></text>
-<text x="16" y="172" class="label" opacity="0">now<animate attributeName="opacity" from="0" to="1" begin="780ms" dur="300ms" fill="freeze"/></text>
-<text x="110" y="172" class="value" opacity="0">Heading to Waterloo CS Co-op, Fall 2026<animate attributeName="opacity" from="0" to="1" begin="780ms" dur="300ms" fill="freeze"/></text>
+<text x="446" y="24" text-anchor="end" class="header">pranav@jpranav0802</text>
+<text x="16" y="66" class="label" opacity="0">OS<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="66" class="value" fill="#2EFFB8" opacity="0">macOS Golden Gate<animate attributeName="opacity" from="0" to="1" begin="0ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="90" class="label" opacity="0">Host<animate attributeName="opacity" from="0" to="1" begin="80ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="90" class="value" fill="#2EFFB8" opacity="0">MacBook Pro M4 Pro<animate attributeName="opacity" from="0" to="1" begin="80ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="114" class="label" opacity="0">Kernel<animate attributeName="opacity" from="0" to="1" begin="160ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="114" class="value" fill="#2EFFB8" opacity="0">University of Waterloo + Founder Mode<animate attributeName="opacity" from="0" to="1" begin="160ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="138" class="label" opacity="0">IDE<animate attributeName="opacity" from="0" to="1" begin="240ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="138" class="value" fill="#2EFFB8" opacity="0">Antigravity + VS Code 1.133<animate attributeName="opacity" from="0" to="1" begin="240ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="174" class="section" opacity="0">Languages<animate attributeName="opacity" from="0" to="1" begin="320ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="198" class="label" opacity="0">JavaScript<animate attributeName="opacity" from="0" to="1" begin="400ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="198" class="value" fill="#f1e05a" opacity="0">78.4%<animate attributeName="opacity" from="0" to="1" begin="400ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="222" class="label" opacity="0">TypeScript<animate attributeName="opacity" from="0" to="1" begin="480ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="222" class="value" fill="#3178c6" opacity="0">14.0%<animate attributeName="opacity" from="0" to="1" begin="480ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="246" class="label" opacity="0">Jupyter Notebook<animate attributeName="opacity" from="0" to="1" begin="560ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="246" class="value" fill="#DA5B0B" opacity="0">3.9%<animate attributeName="opacity" from="0" to="1" begin="560ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="270" class="label" opacity="0">Vue<animate attributeName="opacity" from="0" to="1" begin="640ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="270" class="value" fill="#41b883" opacity="0">2.5%<animate attributeName="opacity" from="0" to="1" begin="640ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="294" class="label" opacity="0">Python<animate attributeName="opacity" from="0" to="1" begin="720ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="294" class="value" fill="#3572A5" opacity="0">0.6%<animate attributeName="opacity" from="0" to="1" begin="720ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="318" class="label" opacity="0">CSS<animate attributeName="opacity" from="0" to="1" begin="800ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="318" class="value" fill="#663399" opacity="0">0.2%<animate attributeName="opacity" from="0" to="1" begin="800ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="354" class="section" opacity="0">Contact<animate attributeName="opacity" from="0" to="1" begin="880ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="378" class="label" opacity="0">Email<animate attributeName="opacity" from="0" to="1" begin="960ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="378" class="value" fill="#2EFFB8" opacity="0">jpranav08@gmail.com<animate attributeName="opacity" from="0" to="1" begin="960ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="402" class="label" opacity="0">Instagram<animate attributeName="opacity" from="0" to="1" begin="1040ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="402" class="value" fill="#2EFFB8" opacity="0">@jpranav08<animate attributeName="opacity" from="0" to="1" begin="1040ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="426" class="label" opacity="0">LinkedIn<animate attributeName="opacity" from="0" to="1" begin="1120ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="426" class="value" fill="#2EFFB8" opacity="0">pranav-jain-10a616276<animate attributeName="opacity" from="0" to="1" begin="1120ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="462" class="section" opacity="0">GitHub Stats<animate attributeName="opacity" from="0" to="1" begin="1200ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="486" class="label" opacity="0">Repos<animate attributeName="opacity" from="0" to="1" begin="1280ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="486" class="value" fill="#2EFFB8" opacity="0">19<animate attributeName="opacity" from="0" to="1" begin="1280ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="510" class="label" opacity="0">Stars<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="510" class="value" fill="#2EFFB8" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="534" class="label" opacity="0">Commits<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="534" class="value" fill="#2EFFB8" opacity="0">52<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="558" class="label" opacity="0">Followers<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="558" class="value" fill="#2EFFB8" opacity="0">1<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
+<text x="16" y="594" class="label" opacity="0">Lines of Code<animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="594" class="value" opacity="0"><tspan fill="#3fb950">+347,083</tspan><tspan fill="#7d8590"> / </tspan><tspan fill="#f85149">-274</tspan><animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
 </svg>
