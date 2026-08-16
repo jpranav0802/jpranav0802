@@ -1,42 +1,7 @@
 {
   "username": "jpranav0802",
-  "pulled_at": "2026-08-15T05:31:59.193555+00:00",
+  "pulled_at": "2026-08-16T05:34:59.940230+00:00",
   "days": [
-    {
-      "date": "2025-08-10",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-11",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-12",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-13",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-14",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-15",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-16",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-08-17",
       "count": 1,
@@ -1854,12 +1819,17 @@
     },
     {
       "date": "2026-08-15",
+      "count": 1,
+      "level": 2
+    },
+    {
+      "date": "2026-08-16",
       "count": 0,
       "level": 0
     }
   ],
-  "total": 10,
+  "total": 11,
   "current_streak": 0,
-  "longest_streak": 4,
+  "longest_streak": 5,
   "busiest_weekday": "Tuesday"
 }
