@@ -45,9 +45,9 @@
 <text x="16" y="510" class="label" opacity="0">Stars<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="510" class="value" fill="#2EFFB8" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="534" class="label" opacity="0">Commits<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="534" class="value" fill="#2EFFB8" opacity="0">66<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="534" class="value" fill="#2EFFB8" opacity="0">67<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="558" class="label" opacity="0">Followers<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="558" class="value" fill="#2EFFB8" opacity="0">1<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="594" class="label" opacity="0">Lines of Code<animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="594" class="value" opacity="0"><tspan fill="#3fb950">+350,943</tspan><tspan fill="#7d8590"> / </tspan><tspan fill="#f85149">-1,288</tspan><animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="594" class="value" opacity="0"><tspan fill="#3fb950">+350,960</tspan><tspan fill="#7d8590"> / </tspan><tspan fill="#f85149">-1,299</tspan><animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
 </svg>
