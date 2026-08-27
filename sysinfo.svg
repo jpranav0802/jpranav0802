@@ -21,17 +21,17 @@
 <text x="180" y="138" class="value" fill="#2EFFB8" opacity="0">Antigravity + VS Code 1.133<animate attributeName="opacity" from="0" to="1" begin="240ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="174" class="section" opacity="0">Languages<animate attributeName="opacity" from="0" to="1" begin="320ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="198" class="label" opacity="0">JavaScript<animate attributeName="opacity" from="0" to="1" begin="400ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="198" class="value" fill="#f1e05a" opacity="0">77.2%<animate attributeName="opacity" from="0" to="1" begin="400ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="198" class="value" fill="#f1e05a" opacity="0">75.8%<animate attributeName="opacity" from="0" to="1" begin="400ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="222" class="label" opacity="0">TypeScript<animate attributeName="opacity" from="0" to="1" begin="480ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="222" class="value" fill="#3178c6" opacity="0">15.2%<animate attributeName="opacity" from="0" to="1" begin="480ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="222" class="value" fill="#3178c6" opacity="0">16.7%<animate attributeName="opacity" from="0" to="1" begin="480ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="246" class="label" opacity="0">Jupyter Notebook<animate attributeName="opacity" from="0" to="1" begin="560ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="246" class="value" fill="#DA5B0B" opacity="0">3.9%<animate attributeName="opacity" from="0" to="1" begin="560ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="246" class="value" fill="#DA5B0B" opacity="0">3.8%<animate attributeName="opacity" from="0" to="1" begin="560ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="270" class="label" opacity="0">Vue<animate attributeName="opacity" from="0" to="1" begin="640ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="270" class="value" fill="#41b883" opacity="0">2.4%<animate attributeName="opacity" from="0" to="1" begin="640ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="294" class="label" opacity="0">Python<animate attributeName="opacity" from="0" to="1" begin="720ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="294" class="value" fill="#3572A5" opacity="0">0.7%<animate attributeName="opacity" from="0" to="1" begin="720ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="318" class="label" opacity="0">CSS<animate attributeName="opacity" from="0" to="1" begin="800ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="318" class="value" fill="#663399" opacity="0">0.2%<animate attributeName="opacity" from="0" to="1" begin="800ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="318" class="value" fill="#663399" opacity="0">0.3%<animate attributeName="opacity" from="0" to="1" begin="800ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="354" class="section" opacity="0">Contact<animate attributeName="opacity" from="0" to="1" begin="880ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="378" class="label" opacity="0">Email<animate attributeName="opacity" from="0" to="1" begin="960ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="378" class="value" fill="#2EFFB8" opacity="0">jpranav08@gmail.com<animate attributeName="opacity" from="0" to="1" begin="960ms" dur="180ms" fill="freeze"/></text>
@@ -41,13 +41,13 @@
 <text x="180" y="426" class="value" fill="#2EFFB8" opacity="0">pranav-jain-10a616276<animate attributeName="opacity" from="0" to="1" begin="1120ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="462" class="section" opacity="0">GitHub Stats<animate attributeName="opacity" from="0" to="1" begin="1200ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="486" class="label" opacity="0">Repos<animate attributeName="opacity" from="0" to="1" begin="1280ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="486" class="value" fill="#2EFFB8" opacity="0">19<animate attributeName="opacity" from="0" to="1" begin="1280ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="486" class="value" fill="#2EFFB8" opacity="0">20<animate attributeName="opacity" from="0" to="1" begin="1280ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="510" class="label" opacity="0">Stars<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="510" class="value" fill="#2EFFB8" opacity="0">0<animate attributeName="opacity" from="0" to="1" begin="1360ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="534" class="label" opacity="0">Commits<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="534" class="value" fill="#2EFFB8" opacity="0">67<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="534" class="value" fill="#2EFFB8" opacity="0">69<animate attributeName="opacity" from="0" to="1" begin="1440ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="558" class="label" opacity="0">Followers<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
 <text x="180" y="558" class="value" fill="#2EFFB8" opacity="0">1<animate attributeName="opacity" from="0" to="1" begin="1520ms" dur="180ms" fill="freeze"/></text>
 <text x="16" y="594" class="label" opacity="0">Lines of Code<animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
-<text x="180" y="594" class="value" opacity="0"><tspan fill="#3fb950">+350,960</tspan><tspan fill="#7d8590"> / </tspan><tspan fill="#f85149">-1,299</tspan><animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
+<text x="180" y="594" class="value" opacity="0"><tspan fill="#3fb950">+350,977</tspan><tspan fill="#7d8590"> / </tspan><tspan fill="#f85149">-1,310</tspan><animate attributeName="opacity" from="0" to="1" begin="1600ms" dur="180ms" fill="freeze"/></text>
 </svg>

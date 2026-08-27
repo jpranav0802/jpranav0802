@@ -2,17 +2,17 @@
   {
     "name": "JavaScript",
     "color": "#f1e05a",
-    "percent": 77.2
+    "percent": 75.8
   },
   {
     "name": "TypeScript",
     "color": "#3178c6",
-    "percent": 15.2
+    "percent": 16.7
   },
   {
     "name": "Jupyter Notebook",
     "color": "#DA5B0B",
-    "percent": 3.9
+    "percent": 3.8
   },
   {
     "name": "Vue",
@@ -27,6 +27,6 @@
   {
     "name": "CSS",
     "color": "#663399",
-    "percent": 0.2
+    "percent": 0.3
   }
 ]
